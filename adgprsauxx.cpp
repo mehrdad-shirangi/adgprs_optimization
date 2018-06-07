@@ -2,7 +2,6 @@
   \functions to create adgprs input files (implementation) for reservoir optimization research 
   \ Author : Mehrdad Gharib Shirangi, April 2013, 
   \ Last modified: 2015
-  \ Other contributors: Obiajulu J. Isebor
 */
 #include "adgprsauxx.hpp"
 #include <cmath>
