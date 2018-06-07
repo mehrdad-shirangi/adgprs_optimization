@@ -1,0 +1,98 @@
+NOBJECTIVES
+1
+NCONSTRAINTS		// Set to zero if don't want to use the constraints below
+0
+MAX_QW_INJ		// Max. allowable field water injection rate
+30000
+MIN_QO_PROD		// Min. allowable field oil production rate
+10000
+MAX_QL_PROD		// Max. allowable field liquid production rate
+30000
+MAX_WELL_WCUT		// Max. allowable water cut in any well
+0.95
+WELL_COST		// Cost of drilling a single well
+10.0e6 
+VERT_PERF_COST		// Cost of drilling through each extra layer in a vertical well
+0.5e6			
+HORI_PERF_COST		// Cost of drilling horizontally through each grid block
+2.0e6 
+DISC_RATE               // Discount rate (fraction)
+0.0
+Nz
+1
+NPROD
+5
+NINJ
+5
+OIL_PRICE		// $/bbl --> $/cub m
+566.07
+WATER_INJ_COST		// $/bbl
+62.9
+WATER_PROD_COST		// $/bbl
+62.9
+TSTEPS
+7
+NPERFS                  // inj          prod
+1 1 1 1 1 1 1 1 0
+LOWER_BNDS              // inj          prod
+4000    4000    4000    4000    2500    2500    2500    2500
+UPPER_BNDS              // inj          prod
+9000    9000    9000    9000    6500    6500    6500    6500
+CONTROL_TABLE           // dt   Inj BHP (psi)   Prod BHP (psi)
+180 
+180 
+180 
+180 
+180 
+1050  
+1050  
+
+--
+-- Number of wells to be drilled at each step ( Number of rigs )
+NwDrill		
+2
+--
+NUM_CORES
+1
+-- if optimize is 1, then the optimizer is called with OPT.txt file. The number of
+-- iterations, simulations, and the type of optimizer had to be specified in OPT.txt in advance.
+OPTIMIZE
+0
+-- optimization algorithm:
+OPTALG
+NLOPT_LD_MMA
+-- The following option is used when the external MMA algorithm will be used for optimization
+-- This only makes sense when optimization is performed over multiple realizations. As for a sinle
+-- realization, the adgprs OPTALG can be used.
+MMA_PSOMADS
+0
+-- prodUp & prodLB = 1000: 4100 psi; 
+-- injUP& injLB = 4600: 7000 psi
+prodUB
+282.69
+prodLB
+68.95
+injUB
+482.63
+injLB
+317.16
+
+-- maximum Total Liquid Rate for each producer and maximum Injection Rate for each injector
+-- These bounds are used for BHP control only
+maxTLR
+4000
+maxINJR
+2000
+--
+RATCTRL
+0
+--if 0, then BHPCTRL is applied
+prdTLRUB
+200
+prdTLRLB
+10
+injRATUB
+400
+injRATLB
+10
+

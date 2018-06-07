@@ -1,0 +1,103 @@
+COMPDAT
+PRD1   14    3      1  1  OPEN  *  *  4*  Z/
+/
+
+COMPDAT
+INJ1   4    8      1  1  OPEN  *  *  4*  Z/
+/
+
+INCLUDE
+WCONPROD1.in
+
+INCLUDE
+WCONINJE1.in
+
+TUNING
+1 50 *  5/
+/ 
+
+TSTEP
+180 /
+
+COMPDAT
+PRD2   8    53      1  1  OPEN  *  *  4*  Z/
+/
+
+COMPDAT
+INJ2   32    3      1  1  OPEN  *  *  4*  Z/
+/
+
+INCLUDE
+WCONPROD2.in
+
+INCLUDE
+WCONINJE2.in
+
+TSTEP
+180 /
+
+COMPDAT
+PRD3   38    58      1  1  OPEN  *  *  4*  Z/
+/
+
+COMPDAT
+PRD4   46    10      1  1  OPEN  *  *  4*  Z/
+/
+
+INCLUDE
+WCONPROD3.in
+
+INCLUDE
+WCONINJE3.in
+
+TSTEP
+180 /
+
+COMPDAT
+INJ3   54    3      1  1  OPEN  *  *  4*  Z/
+/
+
+INCLUDE
+WCONPROD4.in
+
+INCLUDE
+WCONINJE4.in
+
+TSTEP
+180 /
+
+COMPDAT
+PRD5   48    52      1  1  OPEN  *  *  4*  Z/
+/
+
+COMPDAT
+PRD6   50    35      1  1  OPEN  *  *  4*  Z/
+/
+
+INCLUDE
+WCONPROD5.in
+
+INCLUDE
+WCONINJE5.in
+
+TSTEP
+180 /
+
+INCLUDE
+WCONPROD6.in
+
+INCLUDE
+WCONINJE6.in
+
+TSTEP
+1050 /
+
+INCLUDE
+WCONPROD7.in
+
+INCLUDE
+WCONINJE7.in
+
+TSTEP
+1050 /
+

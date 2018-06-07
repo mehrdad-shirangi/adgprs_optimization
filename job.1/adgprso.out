@@ -1,0 +1,43 @@
+ 0. Reading optimSetup.in
+   nObjs    = 1
+  nConstrs  = 0
+   Qwinj    = 30000.000000
+   Qoprod   = 10000.000000
+   Qlprod   = 30000.000000
+   Fwmax    = 0.950000
+   wellCost = 10000000.000000
+   vperfCost= 500000.000000
+   hperfCost= 2000000.000000
+   discRate = 0.000000
+     NwDrill= 2
+   NUM_CORES= 1
+     Nz     = 1
+     Nwp    = 5
+     Nwi    = 5
+     Po     = 566.070000
+     Rwi    = 62.900000
+     Rwp    = 62.900000
+     Nt     = 7
+     Nwells = 10
+     dtopt  =  180  180  180  180  180 1050 1050 
+     Tsim   = 3000
+     Nwells = 10
+     maxTLR = 4000.000000
+     maxINJR= 2000.000000
+     prodLB = 68.950000
+     prodUB = 282.690000
+     injLB  = 317.160000
+     injUB  = 482.630000
+     RATCTRL= (null)
+     prdTLRLB= 10.000000
+     prdTLRUB= 200.000000
+     injRATLB= 10.000000
+     injRATUB= 400.000000
+  FOP 	 FWP 	 FWI = 
+ 971691.020300 	 72166.545414 	 -856173.424255 
+ prod_opt npv =  491652551.769011 
+     discFac = 1.000000  
+ nwells = 9 
+  wellCost = 90000000.000000  
+ npv = 401652551.769011 
+ 

@@ -1,0 +1,240 @@
+OpenMP enabled, number of threads = 1
+Start simulation with simForOptFiles/sim.txt file.
+****** Keyword not found ******VERBOSE_LEVEL
+****** Keyword not found ******ALLSILENT
+Include filename = simForOptFiles/poro.in
+Include filename = simForOptFiles/permx.in
+Include filename = simForOptFiles/permy.in
+Include filename = simForOptFiles/permz.in
+Include filename = simForOptFiles/pvt_do.dat
+Include filename = simForOptFiles/scal.dat
+-- Output files prefix: OUTPUT1
+Include filename = simForOptFiles/WELSPECS.txt
+Include filename = simForOptFiles/COMPDAT.txt
+Include filename = simForOptFiles/WELLSTRE.txt
+Include filename = simForOptFiles/wellcontrols.in
+Include filename = simForOptFiles/WCONPROD1.in
+Include filename = simForOptFiles/WCONINJE1.in
+Include filename = simForOptFiles/WCONPROD2.in
+Include filename = simForOptFiles/WCONINJE2.in
+Include filename = simForOptFiles/WCONPROD3.in
+Include filename = simForOptFiles/WCONINJE3.in
+Include filename = simForOptFiles/WCONPROD4.in
+Include filename = simForOptFiles/WCONINJE4.in
+Include filename = simForOptFiles/WCONPROD5.in
+Include filename = simForOptFiles/WCONINJE5.in
+Include filename = simForOptFiles/WCONPROD6.in
+Include filename = simForOptFiles/WCONINJE6.in
+Include filename = simForOptFiles/WCONPROD7.in
+Include filename = simForOptFiles/WCONINJE7.in
+File open for log simForOptFiles/sim.log.txt
+nc = 2
+np = 2
+
+Grid Dimension: 60  60  1
+Number of Cells: 3600
+Number of Active Cells: 3600
+Number of Connections: 7080
+Number of Active Connections: 7080
+
+NaturalVariableFormulation is selected!
+Block Linear System is selected!
+%% T =     1.000, DT =   1.000, NI =   2, LI =     8, CFL = 0.016
+%% T =     6.000, DT =   5.000, NI =   2, LI =    10, CFL = 0.159
+%% T =    31.000, DT =  25.000, NI =   2, LI =    12, CFL = 0.859
+%% T =    81.000, DT =  50.000, NI =   2, LI =    12, CFL = 1.681
+%% T =   131.000, DT =  50.000, NI =   2, LI =    12, CFL = 1.657
+%% T =   180.000, DT =  49.000, NI =   2, LI =    11, CFL = 1.608
+%% T =   230.000, DT =  50.000, NI =   6, LI =    40, CFL = 29.814
+%% T =   280.000, DT =  50.000, NI =   4, LI =    27, CFL = 15.794
+%% T =   330.000, DT =  50.000, NI =   4, LI =    25, CFL = 10.326
+%% T =   360.000, DT =  30.000, NI =   3, LI =    18, CFL = 5.051
+Facility update error!
+   Pres at 24 = -9.4685
+   Pres at 25 = -207.051
+   Pres at 26 = -225.032
+   Pres at 27 = -249.939
+   Pres at 28 = -279.015
+   Pres at 29 = -301.055
+   Pres at 30 = -325.454
+   Pres at 31 = -327.913
+   Pres at 32 = -300.046
+   Pres at 33 = -262.517
+   Pres at 34 = -237.962
+   Pres at 35 = -219.632
+   Pres at 36 = -160.582
+   Pres at 37 = -68.1818
+   Pres at 86 = -85.328
+   Pres at 87 = -182.296
+   Pres at 88 = -287.672
+   Pres at 89 = -308.808
+   Pres at 90 = -335.558
+   Pres at 91 = -346.883
+   Pres at 92 = -307.531
+   Pres at 93 = -266.203
+   Pres at 94 = -233.241
+   Pres at 95 = -205.053
+   Pres at 96 = -181.217
+   Pres at 97 = -110.052
+   Pres at 98 = -12.6984
+   Pres at 147 = -6.63304
+   Pres at 148 = -144.239
+   Pres at 149 = -219.486
+   Pres at 150 = -355.691
+   Pres at 151 = -389.169
+   Pres at 152 = -314.23
+   Pres at 153 = -268.116
+   Pres at 154 = -225.219
+   Pres at 155 = -187.517
+   Pres at 156 = -162.315
+   Pres at 157 = -138.963
+   Pres at 158 = -67.0745
+   Pres at 209 = -83.444
+   Pres at 210 = -262.129
+   Pres at 211 = -332.789
+   Pres at 212 = -287.813
+   Pres at 213 = -248.046
+   Pres at 214 = -198.578
+   Pres at 215 = -168.161
+   Pres at 216 = -142.845
+   Pres at 217 = -120.783
+   Pres at 218 = -100.879
+   Pres at 219 = -11.7109
+   Pres at 270 = -78.3051
+   Pres at 271 = -214.804
+   Pres at 272 = -254.308
+   Pres at 273 = -206.354
+   Pres at 274 = -173.178
+   Pres at 275 = -145.016
+   Pres at 276 = -121.348
+   Pres at 277 = -101.613
+   Pres at 278 = -86.9124
+   Pres at 279 = -25.9428
+   Pres at 331 = -45.6698
+   Pres at 332 = -125.339
+   Pres at 333 = -171.847
+   Pres at 334 = -144.096
+   Pres at 335 = -118.61
+   Pres at 336 = -97.0877
+   Pres at 337 = -78.5258
+   Pres at 338 = -61.713
+   Pres at 339 = -42.3816
+   Pres at 393 = -79.6342
+   Pres at 394 = -113.979
+   Pres at 395 = -89.4027
+   Pres at 396 = -70.9714
+   Pres at 397 = -54.7439
+   Pres at 398 = -40.0404
+   Pres at 399 = -27.5998
+   Pres at 454 = -36.3582
+   Pres at 455 = -55.1349
+   Pres at 456 = -43.685
+   Pres at 457 = -30.4272
+   Pres at 458 = -17.0543
+   Pres at 459 = -3.34186
+   Pres at 515 = -34.0436
+   Pres at 516 = -19.1657
+   Pres at 517 = -7.14887
+
+Not converged! Cut time step = 10.000
+WARNING: Maximum number of stationary iterations exceeded!
+
+Not converged! Cut time step = 2.000
+%% T =   362.000, DT =   2.000, NI =  10, LI =    49, CFL = 2.635
+%% T =   372.000, DT =  10.000, NI =   5, LI =    32, CFL = 9.674
+%% T =   422.000, DT =  50.000, NI =   9, LI =    71, CFL = 30.967
+%% T =   472.000, DT =  50.000, NI =   6, LI =    47, CFL = 24.752
+%% T =   522.000, DT =  50.000, NI =   5, LI =    38, CFL = 21.883
+%% T =   540.000, DT =  18.000, NI =   4, LI =    25, CFL = 7.600
+%% T =   590.000, DT =  50.000, NI =   5, LI =    36, CFL = 19.822
+%% T =   640.000, DT =  50.000, NI =   5, LI =    37, CFL = 18.943
+%% T =   690.000, DT =  50.000, NI =   5, LI =    36, CFL = 18.286
+%% T =   720.000, DT =  30.000, NI =   3, LI =    19, CFL = 10.770
+%% T =   770.000, DT =  50.000, NI =   5, LI =    32, CFL = 12.341
+%% T =   820.000, DT =  50.000, NI =   5, LI =    36, CFL = 12.445
+%% T =   870.000, DT =  50.000, NI =   4, LI =    29, CFL = 12.554
+%% T =   900.000, DT =  30.000, NI =   4, LI =    25, CFL = 7.576
+%% T =   950.000, DT =  50.000, NI =   5, LI =    31, CFL = 20.376
+%% T =  1000.000, DT =  50.000, NI =   4, LI =    27, CFL = 17.525
+%% T =  1050.000, DT =  50.000, NI =   4, LI =    26, CFL = 16.372
+%% T =  1100.000, DT =  50.000, NI =   4, LI =    26, CFL = 15.754
+%% T =  1150.000, DT =  50.000, NI =   4, LI =    26, CFL = 15.353
+%% T =  1200.000, DT =  50.000, NI =   4, LI =    26, CFL = 15.059
+%% T =  1250.000, DT =  50.000, NI =   4, LI =    27, CFL = 14.826
+%% T =  1300.000, DT =  50.000, NI =   4, LI =    28, CFL = 14.631
+%% T =  1350.000, DT =  50.000, NI =   4, LI =    28, CFL = 14.464
+%% T =  1400.000, DT =  50.000, NI =   4, LI =    28, CFL = 14.318
+%% T =  1450.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.190
+%% T =  1500.000, DT =  50.000, NI =   4, LI =    31, CFL = 14.076
+%% T =  1550.000, DT =  50.000, NI =   4, LI =    31, CFL = 13.977
+%% T =  1600.000, DT =  50.000, NI =   4, LI =    31, CFL = 13.892
+%% T =  1650.000, DT =  50.000, NI =   4, LI =    31, CFL = 13.857
+%% T =  1700.000, DT =  50.000, NI =   4, LI =    30, CFL = 13.909
+%% T =  1750.000, DT =  50.000, NI =   4, LI =    30, CFL = 13.967
+%% T =  1800.000, DT =  50.000, NI =   4, LI =    30, CFL = 14.029
+%% T =  1850.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.093
+%% T =  1900.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.158
+%% T =  1950.000, DT =  50.000, NI =   4, LI =    30, CFL = 14.222
+%% T =  2000.000, DT =  50.000, NI =   4, LI =    27, CFL = 14.262
+%% T =  2050.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.286
+%% T =  2100.000, DT =  50.000, NI =   4, LI =    27, CFL = 14.311
+%% T =  2150.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.344
+%% T =  2200.000, DT =  50.000, NI =   4, LI =    30, CFL = 14.385
+%% T =  2250.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.433
+%% T =  2300.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.485
+%% T =  2350.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.540
+%% T =  2400.000, DT =  50.000, NI =   4, LI =    30, CFL = 14.596
+%% T =  2450.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.652
+%% T =  2500.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.707
+%% T =  2550.000, DT =  50.000, NI =   4, LI =    29, CFL = 14.760
+%% T =  2600.000, DT =  50.000, NI =   4, LI =    31, CFL = 14.811
+%% T =  2650.000, DT =  50.000, NI =   4, LI =    32, CFL = 14.862
+%% T =  2700.000, DT =  50.000, NI =   4, LI =    31, CFL = 14.911
+%% T =  2750.000, DT =  50.000, NI =   4, LI =    31, CFL = 14.960
+%% T =  2800.000, DT =  50.000, NI =   4, LI =    33, CFL = 15.008
+%% T =  2850.000, DT =  50.000, NI =   4, LI =    32, CFL = 15.056
+%% T =  2900.000, DT =  50.000, NI =   4, LI =    30, CFL = 15.103
+%% T =  2950.000, DT =  50.000, NI =   4, LI =    30, CFL = 15.150
+%% T =  3000.000, DT =  50.000, NI =   4, LI =    30, CFL = 15.195
+
+-----------------------------------------
+               Statistics
+-----------------------------------------
+Number of timesteps performed  :      66
+Total Newton iterations        :     273
+Total linear solver iterations :    1917
+Number of timesteps wasted     :       2
+Wasted Newton iterations       :      32
+Wasted linear solver iterations:     210
+-----------------------------------------
+MaxCFL averaged by timesteps =    13.622
+-----------------------------------------
+
+----------------------------------------------
+ Total simulation time:      24.1329 seconds
+----------------------------------------------
+  Initialization       :     0.1108 [  0%]
+  CFL calc/TS init/IO  :     7.6823 [ 32%]
+  Discretization       :     4.3636 [ 18%]
+  Implicit levels      :     0.0044 [  0%]
+  Properties           :     2.9617 [ 12%]
+  Newton check/update  :     0.7874 [  3%]
+  Linear factorization :     0.5114 [  2%]
+  Linear solution      :     7.6932 [ 32%]
+   CPR prec. setup     :     0.7845 [  3%]
+   CPR prec. solve     :     6.0294 [ 25%]
+    AMG prec. setup    :     0.0215 [  0%]
+    AMG first solve    :     2.7235 [ 11%]
+    AMG other solve    :     1.7068 [  7%]
+    BILU prec. setup   :     0.3284 [  1%]
+    BILU prec. solve   :     0.8144 [  3%]
+----------------------------------------------
+ Average implicit cells     =   3600.0 [100%]
+ Maximum implicit cells     =     3600 [100%]
+ Average implicit variables =   7200.0 [100%]
+ Maximum implicit variables =     7200 [100%]
+----------------------------------------------
+
+Total equilibrium [0.7 * SSI + Newton] iterations: 0.0
+Totals: 24.1, 66(2), 273(32), 1917(210), 0.0
+Finished simulation

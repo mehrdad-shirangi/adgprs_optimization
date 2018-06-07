@@ -1,0 +1,6 @@
+WELLSTRE
+-- composition of injected fluid (water - oil)
+INJ1  1.0  0.0 /
+INJ2  1.0  0.0 /
+INJ3  1.0  0.0 /
+/

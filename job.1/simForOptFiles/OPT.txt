@@ -1,0 +1,76 @@
+SIMULATOR
+--GPRS.txt /
+sim.txt /
+
+
+
+OPTDIMS
+-- # iter   # simulat
+     0         1     /
+
+
+
+INCLUDE
+OPTPARS.txt
+
+
+OPTFUNC
+-- Component  Domain       Discount
+     FOPT     FIELD     566.07    0.0 /
+     FWPT     FIELD    -62.90    0.0 /
+     FWIT     FIELD    62.90    0.0 /
+--     FGPT     FIELD    -10    0.0 /
+--     FGIT     FIELD    -10    0.0 /
+/
+
+
+
+
+OPTCONS
+-- Constr  Constr Constr Constr
+-- Mnemon  Domain  Type   Value
+--    WGIR     *      <      3e3   /
+--    WGPR    *      <      2e3   /
+--    WOPR    *      <      1e3   /
+/
+
+
+
+OPTTUNE
+--  Scaling                    Tolerances
+--             convergence  constr_viol  optimality
+       1          1e-2         1e-2         1e-2    /
+--..\..\Optimization\input\ipopt.opt  /
+
+
+
+OPTOPTS
+  SNOPT   DISCRETE_AD
+--  SCHUR_KRYLOV_GMRES@RIGHT+CPR_PARDISO
+  SCHUR_KRYLOV_GMRES@RIGHT+CPR_AMG
+/
+
+
+
+-- peforms the consistency check for the gradient: compares the Finite Difference 
+-- Gradient with the analytic gradient
+--OPTCHCK 
+--  # tests  freq         perturbation
+--                    value     tol    type
+--       20       0      5e-7     1e-4    F /
+
+
+-- The followings are helpfull when using MATLAB to do optimal well placement
+----INPUT
+--raw_controls.txt /
+
+--OPTLOAD
+--FILENAME /
+
+OPTFOUT
+OBJ_HIST
+RAW_CTRLS /
+--GRAD RAW_CTRL/
+
+
+END

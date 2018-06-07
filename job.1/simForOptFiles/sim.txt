@@ -1,0 +1,122 @@
+VERBOSE_LEVEL
+--ALL ALL / 
+ALL SILENT /
+
+MODEL
+DEAD_OIL  NATURAL 
+/
+
+WELL_RATES_AT
+--STC 
+RC
+/
+
+DIMENS
+60 60 1 
+/
+
+DEPTH
+2377.44 
+-- 7800
+/
+
+INCLUDE
+poro.in
+/
+
+INCLUDE
+permx.in
+/
+
+INCLUDE
+permy.in
+/
+
+INCLUDE
+permz.in
+/
+
+DX
+30.48 /
+
+DY
+30.48 /
+
+DZ
+4.57 /
+
+--- equivalent to 100 by 100 by 15 ft
+
+INCLUDE
+pvt_do.dat
+/
+
+INCLUDE
+scal.dat
+/
+
+RTEMP
+373 /
+/
+
+SCOND
+1.0135 288.89 9.80665e-5/
+/
+
+EQUIL
+2377.44  310.26  /
+/
+--- this is equivalent to 4500 psi at 7800 ft
+
+--PBUB
+--0.5 /
+
+
+SWAT
+0.1 /
+
+
+--SGAS
+--0.0 /
+
+
+LINEAR
+GMRES_CPR0 1e-9 40 /
+/
+
+
+NONLINEAR
+APPL 5e-7 40 /
+/
+
+IMPLICIT
+FIM 1 0.8 0.9 0.005 1 3 /
+
+
+FACILITY
+1e-6 30 1e8 /
+/
+
+
+OUTPUT
+ASCII TIME "Output1"
+/
+
+
+INCLUDE
+WELSPECS.txt
+
+
+INCLUDE
+COMPDAT.txt
+
+INCLUDE
+WELLSTRE.txt
+
+
+INCLUDE 
+wellcontrols.in
+
+  
+
+END

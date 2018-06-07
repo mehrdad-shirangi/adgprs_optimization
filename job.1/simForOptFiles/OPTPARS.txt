@@ -1,0 +1,5 @@
+OPTPARS
+-- Bottom hole pressure control parameters
+   WBHP INJ   5000     10000  /
+   WBHP PRD   100     5000  /
+/

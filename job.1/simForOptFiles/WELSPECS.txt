@@ -1,0 +1,11 @@
+WELSPECS
+PRD1  PRD  14    3 4* HALT NO /
+PRD2  PRD  8    53 4* HALT NO /
+PRD3  PRD  38    58 4* HALT NO /
+PRD4  PRD  46    10 4* HALT NO /
+PRD5  PRD  48    52 4* HALT NO /
+PRD6  PRD  50    35 4* HALT NO /
+INJ1  INJ  4    8 *  4*  NO /
+INJ2  INJ  32    3 *  4*  NO /
+INJ3  INJ  54    3 *  4*  NO /
+/
